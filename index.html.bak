@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>ELEMENTS OF HTML5</title>
+</head>
+
+<body>
+	<h1>Lab 2 - Elements of HTML5</h1>
+	<h2>This is my novice webpage that illustrates some of HTML5 elements and features.</h2>
+	
+	<p>Paragraph element groups sentences and sections of text together.
+	<br>Line Break element causes the next element or text to display on a new line.</p>
+	<blockquote>Blockquote element indents a block of text for special emphasis.</blockquote>
+	
+	<br>
+	
+	<p>Phrase elements:
+	<ul>
+		<li><b>Bold</b> text</li>
+		<li><em>Emphasized</em> text</li>
+		<li><i>Italic</i> text</li>
+		<li><mark>Mark</mark> text</li>
+		<li><small>Small</small> text</li>
+		<li><strong>Strong</strong> text</li>
+		<li><sub>Sub</sub> text</li>
+		<li><sup>Sup</sup> text</li>
+	</ul>
+	</p>
+	
+	<br>
+	
+	<p>List elements:
+	<ul>
+		<li>Unordered</li>
+		<li>Ordered</li>
+		<li>Description</li>
+	</ul>
+	</p>
+	
+	<br>
+	
+	<p>Special characters:
+	<ol>
+		<li>Copyright: &copy;</li>
+		<li>Lower Than: &lt;</li>
+		<li>Greater Than: &gt;</li>
+		<li>And: &amp;</li>
+		<li>Non-Breaking Space: &nbsp;</li>
+	</ol>
+	</p>
+	
+	<br>
+	
+	<p>Anchor elements:
+	<dl>
+		<dt>Absolute</dt>
+			<dd><a href="http://yahoo.com">Yahoo</a></dd>
+		<dt>Relative</dt>
+			<dd><a href="index.html">Home</a></dd>
+		<dt>Email</dt>
+			<dd><a href=“mailto:me@gmail.com”>me@gmail.com</a></dd>
+	</dl>
+	</p>
+	
+	<br>
+	
+	<p>Meter element:<br>
+	<meter value="53047" min="0" max="53047">53047</meter>53,047 Total<br>
+	<meter value="25007" min="0" max="53047">25007</meter>25,007 Highest<br>
+	<meter value="18040" min="0" max="53047">18040</meter>18,040 Middle<br>
+	<meter value="10000" min="0" max="53047">10000</meter>10,000 Lowest<br>
+	</p>
+	
+	<br>
+	
+	<p>Progress element:<br>
+	<progress value="77" max="100">77</progress> We have done about 77% of the lab</p>
+	
+	<br>
+	
+	<p>Datalist control:<br>
+	<label for="color">Choose your favorite color </label> <input type="text" name="color" id="color" list="colors" >
+	<datalist id="colors">
+	<option value="Black">
+	<option value="Blue">
+	<option value="Green">
+	<option value="Red">
+	<option value="White">
+	<option value="Yellow">
+	</datalist>
+	</p>
+	
+	<br>
+	
+	<p>Slider control:<br>
+	<label for="myChoice">
+	Choose your preferred shade of the chosen color:</label><br>
+	Light <input type="range" name="myChoice" id="myChoice" min="1" max="100"> Dark
+	</p>
+	
+	<p>__________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+	<p><small>Lab 2 - Elements of HTML5 | Written by: Mehdi Golipoor | Professor: Rejaul Chowdhury |
+	Winter 2022</small>
+
+</body>
+</head>
+</html>
